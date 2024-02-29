@@ -1,4 +1,5 @@
 import express, { Request, Response } from 'express';
+import fetch from 'isomorphic-fetch';
 
 const app = express();
 const port = 3001;
