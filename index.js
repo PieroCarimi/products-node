@@ -1,9 +1,12 @@
 
 const express = require('express');
+const cors = require('cors');
 const fetch = require('node-fetch');
 
 const app = express();
 const port = 3001;
+
+app.use(cors());
 
 app.get('/', async (req, res) => {
   const response = await fetch('https://mockend.up.railway.app/api/products');
