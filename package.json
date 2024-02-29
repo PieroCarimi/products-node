@@ -18,6 +18,7 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@types/isomorphic-fetch": "^0.0.39"
+    "@types/isomorphic-fetch": "^0.0.39",
+    "@types/node-fetch": "^2.6.11"
   }
 }
