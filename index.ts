@@ -14,5 +14,5 @@ app.get('/api/products', async (req: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-    console.log('Sever running at htpp://localhost:${port}');
+    console.log(`Sever running at htpp://localhost:${port}`);
 })

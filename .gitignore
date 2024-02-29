@@ -1,2 +1,5 @@
 # dependencies
 /node_modules
+
+# Ignora il file tsconfig.json
+tsconfig.json
